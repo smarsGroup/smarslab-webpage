@@ -22,4 +22,4 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 **Deployment**
 
-This website and hosted on [Netlify](https://www.netlify.com/). This main branch of this repository is connected to Netlify. So every push/merge to the main branch will automatically deploy a new copy of the website.
+This website is hosted on [Netlify](https://www.netlify.com/). This main branch of this repository is connected to SMaRS Lab Netlify account. So every push/merge to the main branch will automatically deploy a new copy of the website.
