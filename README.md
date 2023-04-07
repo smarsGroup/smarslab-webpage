@@ -21,4 +21,5 @@ To launch the test runner in the interactive watch mode: \
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 **Deployment**
+
 This website and hosted on [Netlify](https://www.netlify.com/). This main branch of this repository is connected to Netlify. So every push/merge to the main branch will automatically deploy a new copy of the website.
