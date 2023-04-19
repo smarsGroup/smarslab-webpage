@@ -1,6 +1,6 @@
 # SMaRS Lab Web Page
 
-This is the official code base of the [SMaRS Lab Web Page](https://www.smarsgroup.org/).
+This is the official code base of the [SMaRS Lab Web Page](https://www.smarsgroup.org/). This lab is headed my [Prof. Varaprasad Bandaru](https://github.com/vbandaru9).
 
 ## Getting Started
 These instructions will help you get the project up and running on your local machine.
