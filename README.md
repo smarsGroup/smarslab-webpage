@@ -21,6 +21,8 @@ To launch the test runner in the interactive watch mode: \
 
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+The Google Drive folder for the Team Members can be found [here](https://drive.google.com/drive/folders/1c70_xrwFa4BTirsw4_TaApetTQSvX5qE?usp=sharing).
+
 ## Deployment
 This website is hosted on [Netlify](https://www.netlify.com/). This main branch of this repository is connected to SMaRS Lab Netlify account. So every push/merge to the main branch will automatically deploy a new copy of the website.
 
