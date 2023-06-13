@@ -24,6 +24,39 @@ const people_list = [
                 photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/RohitNandan.jpg'
             },
             {
+                name: 'Meena Kumari Kolli',
+                data: 'Dr. Meena Kolli is a Postdoctoral Research Associate. Her research focuses on the integration of ' +
+                  'field/remote sensing data and process-based models. Her primary research interest is in the area of ' +
+                  'mapping and modeling using big-data analysis using cloud platforms. Her research area revolves around ' +
+                  'extracting, processing, assimilating, and analyzing a satellite image to create insightful maps using ' +
+                  'the techniques of remote sensing and Digital Image Processing. She is ' +
+                  'well-versed in deriving viable solutions to complex problems through big data analysis. She received ' +
+                  'her Ph.D. in 2020 from the Philipps-Universität Marburg, Germany, and thereafter worked as a Research ' +
+                  'Fellow at the National Academy of Agricultural Sciences, New Delhi. She worked as a Postdoctoral ' +
+                  'Research Fellow at IIT Bombay from March 2022 to September 2022.',
+                photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/MeenaKumari.jpg'
+            },
+            {
+                name: 'Sameep Pote',
+                data: 'Sameep Pote is a graduate student from University of Maryland. He is working as a Data Specialist ' +
+                'at USDA. He is currently working on data assimilation related tasks of NASA CMS project.',
+                photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/Sameep.jpg'
+            },
+            {
+                name: 'Bharath Chandra Irigireddy',
+                data: 'Bharath is pursuing masters in Robotics at the University of Maryland. His research interests mainly' +
+                'lie in the intersection of Computer Vision and Machine Learning. He is currently working on data processing' +
+                'for Nitrogen Recommendation Tool and Field Boundary Delineation using satellite images.',
+                Photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/Bharath.JPG'
+            },
+            {
+                name: 'Rohan Maan',
+                data: 'Rohan Maan is pursuing his masters in Robotics at the University of Maryland. His primary research' +
+                'is into Computer Vision and Machine Learning and is currently working on Tillage Mapping using satellite' +
+                'spatiotemporal data.',
+                Photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/rohan.JPG'
+            },
+            {
                 name: 'Koutilya PNVR',
                 data: 'Koutilya PNVR is a PhD student in the department of Electrical and Computer Engineering, ' +
                   'University of Maryland, College Park, MD. He has been working as a Graduate Research Assistant in the ' +
@@ -52,19 +85,6 @@ const people_list = [
                   'Maryland, College Park. He works as a Graduate Student Researcher and he is involved in research ' +
                   'related to segmentation analysis, spatial data analysis and forecasting.',
                 photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/AshishPagote.jpg'
-            },
-            {
-                name: 'Meena Kumari Kolli',
-                data: 'Dr. Meena Kolli is a Postdoctoral Research Associate. Her research focuses on the integration of ' +
-                  'field/remote sensing data and process-based models. Her primary research interest is in the area of ' +
-                  'mapping and modeling using big-data analysis using cloud platforms. Her research area revolves around ' +
-                  'extracting, processing, assimilating, and analyzing a satellite image to create insightful maps using ' +
-                  'the techniques of remote sensing and Digital Image Processing. She is ' +
-                  'well-versed in deriving viable solutions to complex problems through big data analysis. She received ' +
-                  'her Ph.D. in 2020 from the Philipps-Universität Marburg, Germany, and thereafter worked as a Research ' +
-                  'Fellow at the National Academy of Agricultural Sciences, New Delhi. She worked as a Postdoctoral ' +
-                  'Research Fellow at IIT Bombay from March 2022 to September 2022.',
-                photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/MeenaKumari.jpg'
             },
             {
                 name: 'Eric Allen',
