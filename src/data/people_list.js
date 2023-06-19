@@ -47,14 +47,14 @@ const people_list = [
                 data: 'Bharath is pursuing masters in Robotics at the University of Maryland. His research interests mainly' +
                 'lie in the intersection of Computer Vision and Machine Learning. He is currently working on data processing' +
                 'for Nitrogen Recommendation Tool and Field Boundary Delineation using satellite images.',
-                Photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/Bharath1.jpeg'
+                photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/Bharath1.jpeg'
             },
             {
                 name: 'Rohan Maan',
                 data: 'Rohan Maan is pursuing his masters in Robotics at the University of Maryland. His primary research' +
                 'is into Computer Vision and Machine Learning and is currently working on Tillage Mapping using satellite' +
                 'spatiotemporal data.',
-                Photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/rohan1.jpeg'
+                photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/rohan1.jpeg'
             },
             {
                 name: 'Koutilya PNVR',
