@@ -37,25 +37,45 @@ const people_list = [
                 photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/MeenaKumari.jpg'
             },
             {
-                name: 'Sameep Pote',
-                data: 'Sameep Pote is a graduate student from University of Maryland. He is working as a Data Specialist ' +
-                'at USDA. He is currently working on data assimilation related tasks of NASA CMS project.',
-                photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/Sameep.jpg'
+              name: 'Pramod Pokhrel',
+              data: 'Dr. Pramod Pokhrel is a Research Agronomist at USDA-ARS, Maricopa, Arizona. His research broadly ' +
+              ' focuses on climate adaptive agriculture to promote environmental sustainability within complex agricultural ' +
+              ' systems. His current study is emphases on understanding and modeling carbon stabilizing potential of cover ' +
+              ' crops using modeling tools and remotely sensed data. Dr. Pokhrel earned his PhD from Texas A&amp;M University ' + 
+              ' in 2020.',
+              photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/pramod.png'
             },
             {
-                name: 'Bharath Chandra Irigireddy',
-                data: 'Bharath is pursuing masters in Robotics at the University of Maryland. His research interests mainly' +
-                'lie in the intersection of Computer Vision and Machine Learning. He is currently working on data processing' +
-                'for Nitrogen Recommendation Tool and Field Boundary Delineation using satellite images.',
-                photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/Bharath1.jpeg'
-            },
-            {
-                name: 'Rohan Maan',
-                data: 'Rohan Maan is pursuing his masters in Robotics at the University of Maryland. His primary research' +
-                'is into Computer Vision and Machine Learning and is currently working on Tillage Mapping using satellite' +
-                'spatiotemporal data.',
-                photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/rohan1.jpeg'
-            },
+              name: 'Eric Allen',
+              data: 'Eric Allen received his Master’s in plant biology with a focus in remote sensing from the ' +
+                'University of Oklahoma. His graduate research mainly involved applying remote sensing for ' +
+                'spatio-temporal analysis of vegetation productivity in response to extreme drought. Now at the ' +
+                'USDA Arid-Land Research Institute, he has been working on development of a multi-scale experiment to ' +
+                'study the impacts of heat stress on cotton. He is also involved in the production of a high spatial ' +
+                'resolution nitrogen fertilizer database for the United States.',
+              photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/EricAllen.jpg'
+          },
+          {
+            name: 'Bharath Chandra Irigireddy',
+            data: 'Bharath is pursuing masters in Robotics at the University of Maryland. His research interests mainly' +
+            ' lie in the intersection of Computer Vision and Machine Learning. He is currently working on data processing' +
+            ' for Nitrogen Recommendation Tool and Field Boundary Delineation using satellite images.',
+            photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/Bharath1.jpeg'
+        },
+        {
+            name: 'Rohan Maan',
+            data: 'Rohan Maan is pursuing his masters in Robotics at the University of Maryland. His primary research' +
+            ' is into Computer Vision and Machine Learning and is currently working on Tillage Mapping using satellite' +
+            ' spatiotemporal data.',
+            photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/Rohan_new.JPG'
+        },
+        {
+          name: 'Ashish Murlidhar Pagote',
+          data: 'Ashish Murlidhar Pagote is pursuing MS in Data Science and Analytics at the University of ' +
+            'Maryland, College Park. He works as a Graduate Student Researcher and he is involved in research ' +
+            'related to segmentation analysis, spatial data analysis and forecasting.',
+          photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/AshishPagote.jpg'
+      },
             {
                 name: 'Koutilya PNVR',
                 data: 'Koutilya PNVR is a PhD student in the department of Electrical and Computer Engineering, ' +
@@ -65,40 +85,29 @@ const people_list = [
                 photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/KoutilyaPNVR.jpg'
             },
             {
-                name: 'Keerthan Mahesh',
-                data: 'Keerthan Mahesh is pursuing MS in Software Engineering at the University of Maryland, College ' +
-                  'Park. He works as a Graduate Student Researcher and is involved in developing web applications. He is ' +
-                  'currently working on the developing features for the NASA Carbon Monitoring System (CMS) project and ' +
-                  'the Nitrogen Recommendation Tool. He is also involved in building the SMaRS Lab web page.',
-                photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/KeerthanMahesh.jpg'
-            },
-            {
-                name: 'Aditi Ganesh Joshi',
-                data: 'Aditi Ganesh Joshi is pursuing MS in Data Science and Analytics at the University of Maryland, ' +
-                  'College Park. She works as a graduate student researcher. She is currently working on the statistical ' +
-                  'downscaling of weather forecasts.',
-                photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/AditiJoshi.jpg'
-            },
-            {
-                name: 'Ashish Murlidhar Pagote',
-                data: 'Ashish Murlidhar Pagote is pursuing MS in Data Science and Analytics at the University of ' +
-                  'Maryland, College Park. He works as a Graduate Student Researcher and he is involved in research ' +
-                  'related to segmentation analysis, spatial data analysis and forecasting.',
-                photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/AshishPagote.jpg'
-            },
-            {
-                name: 'Eric Allen',
-                data: 'Eric Allen received his Master’s in plant biology with a focus in remote sensing from the ' +
-                  'University of Oklahoma. His graduate research mainly involved applying remote sensing for ' +
-                  'spatio-temporal analysis of vegetation productivity in response to extreme drought. Now at the ' +
-                  'USDA Arid-Land Research Institute, he has been working on development of a multi-scale experiment to ' +
-                  'study the impacts of heat stress on cotton. He is also involved in the production of a high spatial ' +
-                  'resolution nitrogen fertilizer database for the United States.',
-                photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/EricAllen.jpg'
-            },
+              name: 'Sameep Pote',
+              data: 'Sameep Pote is a graduate student from University of Maryland. He is working as a Data Specialist ' +
+              'at USDA. He is currently working on data assimilation related tasks of NASA CMS project.',
+              photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/Sameep.jpg'
+          },
 
         ],
         former: [
+          {
+            name: 'Keerthan Mahesh',
+            data: 'Keerthan Mahesh is pursuing MS in Software Engineering at the University of Maryland, College ' +
+              'Park. He works as a Graduate Student Researcher and is involved in developing web applications. He is ' +
+              'currently working on the developing features for the NASA Carbon Monitoring System (CMS) project and ' +
+              'the Nitrogen Recommendation Tool. He is also involved in building the SMaRS Lab web page.',
+            photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/KeerthanMahesh.jpg'
+        },
+        {
+            name: 'Aditi Ganesh Joshi',
+            data: 'Aditi Ganesh Joshi is pursuing MS in Data Science and Analytics at the University of Maryland, ' +
+              'College Park. She works as a graduate student researcher. She is currently working on the statistical ' +
+              'downscaling of weather forecasts.',
+            photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/AditiJoshi.jpg'
+        },
             {
                 name: 'Sandeep Polavarapu Venkata Naga',
                 data: 'Sandeep PVN is pursuing MS in Machine Learning at the University of Maryland, College ' +
