@@ -2,7 +2,7 @@ const people_list = [
   {
     present: [
       {
-        name: 'Dr. Varaprasad (Prasad) Bandaru',
+        name: 'Dr. Varaprasad (Prasad) Bandaru , Principal Investigator',
         data: 'Dr. Prasad Bandaru is a Research Plant Physiologist at USDA-ARS, Maricopa, AZ, and an Adjunct ' +
           'Associate Professor in the department of geographical sciences at University of Maryland, College ' +
           'Park, MD. His research is broadly focused on large scale modeling of agricultural systems. He ' +
@@ -12,7 +12,31 @@ const people_list = [
           'NASA LCLUC Science Team (2018-present). Dr. Bandaru received a PhD in Plant and Soil Sciences from ' +
           'the University of Delaware. Later, he worked as a postdoctoral research associate at Oak Ridge ' +
           'National Laboratory.',
-        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/ProfVaraprasadBandaru.png'
+        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/ProfVaraprasadBandaru.png',
+        links : [{
+          logo : 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/harvestlogo.png',
+          url : 'https://nasaharvest.org/partner/varaprasad-bandaru'
+        },{//
+          logo : 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/geog-logo.png',
+          url : 'https://geog.umd.edu/facultyprofile/bandaru/varaprasad'
+        },
+        {
+          logo : 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/google-scholar.png',
+          url : 'https://scholar.google.com/citations?user=KJDTwhcAAAAJ&hl=en'
+        },
+        {
+          logo : 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/LinkedIn-logo.png',
+          url : 'https://www.linkedin.com/in/varaprasad-prasad-bandaru-71a21128/'
+        },
+        {
+          logo : 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/usda-logo.png',
+          url : 'https://www.ars.usda.gov/pacific-west-area/maricopa-arizona/us-arid-land-agricultural-research-center/plant-physiology-and-genetics-research/people/prasad-bandaru/'
+        },
+        {
+          logo : 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/nacp-logo.png',
+          url : 'https://cce-signin.gsfc.nasa.gov/cgi-bin/participants/getrec.pl?name_id=10964&wid=12'
+        }
+      ]
       },
       {
         name: 'Rohit Nandan',

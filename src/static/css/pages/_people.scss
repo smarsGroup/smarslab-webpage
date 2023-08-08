@@ -1,4 +1,19 @@
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+.link-container{
+    width: 100%;
+}
+.linkItem{
+    width: 32%;
+    height: 70px;
+    border-radius: 5px;
+    text-align: center;
+}
+.linkItem:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+.link-logo{
+    max-width: 100%;
+    max-height: 100%;
+}

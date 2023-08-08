@@ -1,7 +1,7 @@
 import React from 'react';
 import Main from '../layouts/Main';
 import people_list from '../data/people_list';
-import { Grid, Card, CardContent, Accordion, AccordionSummary, AccordionDetails } from '@mui/material';
+import { Grid, Card, CardContent, Accordion, AccordionSummary, AccordionDetails, Stack, Box } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import "../static/css/pages/_people.scss";
 
@@ -55,6 +55,17 @@ export default function People() {
                               <p>{item.data}</p>
                             </Grid>
                           </Grid>
+                          <Stack flexDirection='row' justifyContent="space-around" className='link-container' flexWrap="wrap" rowGap={2}>
+                                {
+                                  item.links && item.links.map((linkItem) => {
+                                    return (
+                                      <a href={linkItem.url} className='linkItem' target='_blank'>
+                                        <img src={linkItem.logo} className='link-logo'/>
+                                      </a>
+                                    );
+                                  })
+                                }
+                              </Stack>
                         </CardContent>
                       </Card>
                       <br />
@@ -75,12 +86,12 @@ export default function People() {
             </AccordionSummary>
             <AccordionDetails>
               {former_people.sort((person1, person2) => {
-                  let name1 = person1.name.split(' ');
-                  let lastName1 = name1[name1.length - 1];
-                  let name2 = person2.name.split(' ');
-                  let lastName2 = name2[name2.length - 1];
-                  return lastName1.localeCompare(lastName2);
-                }).map((item, key) => {
+                let name1 = person1.name.split(' ');
+                let lastName1 = name1[name1.length - 1];
+                let name2 = person2.name.split(' ');
+                let lastName2 = name2[name2.length - 1];
+                return lastName1.localeCompare(lastName2);
+              }).map((item, key) => {
                 return (
                   <div key={key}>
                     <Card >
