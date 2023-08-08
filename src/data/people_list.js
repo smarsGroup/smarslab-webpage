@@ -13,30 +13,31 @@ const people_list = [
           'the University of Delaware. Later, he worked as a postdoctoral research associate at Oak Ridge ' +
           'National Laboratory.',
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/ProfVaraprasadBandaru.png',
-        links : [{
-          logo : 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/harvestlogo.png',
-          url : 'https://nasaharvest.org/partner/varaprasad-bandaru'
-        },{//
-          logo : 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/geog-logo.png',
-          url : 'https://geog.umd.edu/facultyprofile/bandaru/varaprasad'
-        },
-        {
-          logo : 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/google-scholar.png',
-          url : 'https://scholar.google.com/citations?user=KJDTwhcAAAAJ&hl=en'
-        },
-        {
-          logo : 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/LinkedIn-logo.png',
-          url : 'https://www.linkedin.com/in/varaprasad-prasad-bandaru-71a21128/'
-        },
-        {
-          logo : 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/usda-logo.png',
-          url : 'https://www.ars.usda.gov/pacific-west-area/maricopa-arizona/us-arid-land-agricultural-research-center/plant-physiology-and-genetics-research/people/prasad-bandaru/'
-        },
-        {
-          logo : 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/nacp-logo.png',
-          url : 'https://cce-signin.gsfc.nasa.gov/cgi-bin/participants/getrec.pl?name_id=10964&wid=12'
-        }
-      ]
+        links: [
+          {
+            logo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/usda-logo.png',
+            url: 'https://www.ars.usda.gov/pacific-west-area/maricopa-arizona/us-arid-land-agricultural-research-center/plant-physiology-and-genetics-research/people/prasad-bandaru/'
+          }, {
+            logo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/geog-logo.png',
+            url: 'https://geog.umd.edu/facultyprofile/bandaru/varaprasad'
+          },
+          {
+            logo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/nacp-logo.png',
+            url: 'https://cce-signin.gsfc.nasa.gov/cgi-bin/participants/getrec.pl?name_id=10964&wid=12'
+          },
+          {
+            logo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/harvestlogo.png',
+            url: 'https://nasaharvest.org/partner/varaprasad-bandaru'
+          },
+          {
+            logo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/LinkedIn-logo.png',
+            url: 'https://www.linkedin.com/in/varaprasad-prasad-bandaru-71a21128/'
+          },
+          {
+            logo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/google-scholar.png',
+            url: 'https://scholar.google.com/citations?user=KJDTwhcAAAAJ&hl=en'
+          }
+        ]
       },
       {
         name: 'Rohit Nandan',
