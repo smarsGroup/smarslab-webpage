@@ -47,6 +47,7 @@ export default function People() {
                                 src={item.photo}
                                 srcSet={item.photo}
                                 alt={item.name}
+                                height={200}
                                 loading="lazy"
                               />
                             </Grid>
@@ -103,6 +104,7 @@ export default function People() {
                               src={item.photo}
                               srcSet={item.photo}
                               alt={item.name}
+                              height={200}
                               loading="lazy"
                             />
                           </Grid>

@@ -99,7 +99,7 @@ const people_list = [
         data: 'Sachin Velmurugan is pursuing MS in Software Engineering at the University of Maryland, College ' +
           'Park. He works on developing and deploying web applications for SMaRS lab. He is ' +
           'currently working on the Nitrogen Recommendation tool.',
-        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/sachin.jpeg'
+        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/sachin.jpg'
       },
       {
         name: 'Ashish Murlidhar Pagote',
@@ -122,7 +122,14 @@ const people_list = [
           'at USDA. He is currently working on data assimilation related tasks of NASA CMS project.',
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/Sameep.jpg'
       },
-
+      {
+        name: 'Meenakshi Rawat',
+        data: 'Meenakshi Rawat is a graduate student from Kansas State University. '+
+        'She has gained experience working on process-based and statistical-based models for crop yield prediction. '+
+        'She has recently joined as a Geospatial Data Scientist at the USDA. '+
+        'Currently, she is working on the NASA SERVIR project and focusing on data assimilation and simulating yield using the Environmental Policy Integrated Climate (EPIC) model.',
+        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/meenakshi-rawat.jpg'
+      }
     ],
     former: [
       {
@@ -256,16 +263,7 @@ const people_list = [
           'Energy Commission funded project and NASA LCLUC project. She assisted in cluster analysis and large ' +
           'scale spatial data analysis and modeling. She is currently working as a GIS analyst at Mead & Hunt.',
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/LanSong.jfif'
-      },
-      {
-        name: 'Meenakshi Rawat',
-        data: 'Meenakshi Rawat is a graduate student from Kansas State University.'+
-        'She has gained experience working on process-based and statistical-based models for crop yield prediction.'+
-        'She has recently joined as a Geospatial Data Scientist at the USDA.'+
-        'Currently, she is working on the NASA SERVIR project and focusing on data assimilation and simulating yield using the Environmental Policy Integrated Climate (EPIC) model.',
-        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/meenakshi-rawat.jpeg'
       }
-
     ]
   }
 ]
