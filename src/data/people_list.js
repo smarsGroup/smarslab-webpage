@@ -124,11 +124,18 @@ const people_list = [
       },
       {
         name: 'Meenakshi Rawat',
-        data: 'Meenakshi Rawat is a graduate student from Kansas State University. '+
-        'She has gained experience working on process-based and statistical-based models for crop yield prediction. '+
-        'She has recently joined as a Geospatial Data Scientist at the USDA. '+
-        'Currently, she is working on the NASA SERVIR project and focusing on data assimilation and simulating yield using the Environmental Policy Integrated Climate (EPIC) model.',
+        data: 'Meenakshi Rawat is a graduate student from Kansas State University. ' +
+          'She has gained experience working on process-based and statistical-based models for crop yield prediction. ' +
+          'She has recently joined as a Geospatial Data Scientist at the USDA. ' +
+          'Currently, she is working on the NASA SERVIR project and focusing on data assimilation and simulating yield using the Environmental Policy Integrated Climate (EPIC) model.',
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/meenakshi-rawat.jpg'
+      },
+      {
+        name: 'Abhinav Kumar',
+        data: 'Abhinav Kumar is pursuing MS in Computer Science at Arizona State University. ' +
+          'He works on establishing high-computing Linux environment for SMaRS lab. ' +
+          'His primary research is into compiler and high-end computing for machine learning and deep learning applications',
+        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/abhinav.jpeg'
       }
     ],
     former: [

@@ -1,4 +1,6 @@
 const peer_reviewed = [
+  'PVNR. Koutilya, V. Bandaru. 2023. Mapping sugarcane residue burnt areas in smallholder farming systems using machine learning approaches.'+
+  ' International Journal of Applied Earth Observation and Geoinformation, 6, Article 100347.',
   'R. Nandan, V. Bandaru, J. He, C. Daughtry, P. Gowda, A. Suyker. 2022. Evaluating Optical Remote Sensing Methods for ' +
   'Estimating Leaf Area Index for Corn and Soybean. Remote Sensing, 14, 5301.',
   'I. Kumar, K. Feng, L. Sun, V. Bandaru. 2022. Adoption of biomass for electricity generation in Thailand: Implications' +
