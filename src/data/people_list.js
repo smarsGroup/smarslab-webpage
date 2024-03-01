@@ -102,13 +102,6 @@ const people_list = [
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/sachin.jpg'
       },
       {
-        name: 'Ashish Murlidhar Pagote',
-        data: 'Ashish Murlidhar Pagote is pursuing MS in Data Science and Analytics at the University of ' +
-          'Maryland, College Park. He works as a Graduate Student Researcher and he is involved in research ' +
-          'related to segmentation analysis, spatial data analysis and forecasting.',
-        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/AshishPagote.jpg'
-      },
-      {
         name: 'Koutilya PNVR',
         data: 'Koutilya PNVR is a PhD student in the department of Electrical and Computer Engineering, ' +
           'University of Maryland, College Park, MD. He has been working as a Graduate Research Assistant in the ' +
@@ -116,12 +109,12 @@ const people_list = [
           'land cover and burnt area mapping.',
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/KoutilyaPNVR.jpg'
       },
-      {
-        name: 'Sameep Pote',
-        data: 'Sameep Pote is a graduate student from University of Maryland. He is working as a Data Specialist ' +
-          'at USDA. He is currently working on data assimilation related tasks of NASA CMS project.',
-        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/Sameep.jpg'
-      },
+      // {
+      //   name: 'Sameep Pote',
+      //   data: 'Sameep Pote is a graduate student from University of Maryland. He is working as a Data Specialist ' +
+      //     'at USDA. He is currently working on data assimilation related tasks of NASA CMS project.',
+      //   photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/Sameep.jpg'
+      // },
       {
         name: 'Meenakshi Rawat',
         data: 'Meenakshi Rawat is a graduate student from Kansas State University. ' +
@@ -146,6 +139,13 @@ const people_list = [
           'currently working on the developing features for the NASA Carbon Monitoring System (CMS) project and ' +
           'the Nitrogen Recommendation Tool. He is also involved in building the SMaRS Lab web page.',
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/KeerthanMahesh.jpg'
+      },
+      {
+        name: 'Ashish Murlidhar Pagote',
+        data: 'Ashish Murlidhar Pagote is pursuing MS in Data Science and Analytics at the University of ' +
+          'Maryland, College Park. He works as a Graduate Student Researcher and he is involved in research ' +
+          'related to segmentation analysis, spatial data analysis and forecasting.',
+        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/AshishPagote.jpg'
       },
       {
         name: 'Aditi Ganesh Joshi',
