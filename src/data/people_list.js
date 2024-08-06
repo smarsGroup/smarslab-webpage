@@ -48,19 +48,7 @@ const people_list = [
           'India.',
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/RohitNandan.jpg'
       },
-      {
-        name: 'Meena Kumari Kolli',
-        data: 'Dr. Meena Kolli is a Postdoctoral Research Associate. Her research focuses on the integration of ' +
-          'field/remote sensing data and process-based models. Her primary research interest is in the area of ' +
-          'mapping and modeling using big-data analysis using cloud platforms. Her research area revolves around ' +
-          'extracting, processing, assimilating, and analyzing a satellite image to create insightful maps using ' +
-          'the techniques of remote sensing and Digital Image Processing. She is ' +
-          'well-versed in deriving viable solutions to complex problems through big data analysis. She received ' +
-          'her Ph.D. in 2020 from the Philipps-Universität Marburg, Germany, and thereafter worked as a Research ' +
-          'Fellow at the National Academy of Agricultural Sciences, New Delhi. She worked as a Postdoctoral ' +
-          'Research Fellow at IIT Bombay from March 2022 to September 2022.',
-        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/MeenaKumari.jpg'
-      },
+      
       {
         name: 'Pramod Pokhrel',
         data: 'Dr. Pramod Pokhrel is a Research Agronomist at USDA-ARS, Maricopa, Arizona. His research broadly ' +
@@ -70,16 +58,7 @@ const people_list = [
           ' in 2020.',
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/pramod.png'
       },
-      {
-        name: 'Eric Allen',
-        data: 'Eric Allen received his Master’s in plant biology with a focus in remote sensing from the ' +
-          'University of Oklahoma. His graduate research mainly involved applying remote sensing for ' +
-          'spatio-temporal analysis of vegetation productivity in response to extreme drought. Now at the ' +
-          'USDA Arid-Land Research Institute, he has been working on development of a multi-scale experiment to ' +
-          'study the impacts of heat stress on cotton. He is also involved in the production of a high spatial ' +
-          'resolution nitrogen fertilizer database for the United States.',
-        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/EricAllen.jpg'
-      },
+      
       {
         name: 'Bharath Chandra Irigireddy',
         data: 'Bharath is pursuing masters in Robotics at the University of Maryland. His research interests mainly' +
@@ -88,26 +67,11 @@ const people_list = [
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/Bharath1.jpeg'
       },
       {
-        name: 'Rohan Maan',
-        data: 'Rohan Maan is pursuing his masters in Robotics at the University of Maryland. His primary research' +
-          ' is into Computer Vision and Machine Learning and is currently working on Tillage Mapping using satellite' +
-          ' spatiotemporal data.',
-        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/Rohan_new.JPG'
-      },
-      {
         name: 'Sachin Velmurugan',
         data: 'Sachin Velmurugan is pursuing MS in Software Engineering at the University of Maryland, College ' +
           'Park. He works on developing and deploying web applications for SMaRS lab. He is ' +
           'currently working on the Nitrogen Recommendation tool.',
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/sachin.jpg'
-      },
-      {
-        name: 'Koutilya PNVR',
-        data: 'Koutilya PNVR is a PhD student in the department of Electrical and Computer Engineering, ' +
-          'University of Maryland, College Park, MD. He has been working as a Graduate Research Assistant in the ' +
-          'SMaRS lab, and he is involved in the projects focusing on crop phenology, semantic segmentation, and ' +
-          'land cover and burnt area mapping.',
-        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/KoutilyaPNVR.jpg'
       },
       // {
       //   name: 'Sameep Pote',
@@ -124,14 +88,51 @@ const people_list = [
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/meenakshi-rawat.jpg'
       },
       {
+        name: 'Ravi Raj',
+        data: `Dr. Ravi Raj is a Post-doctoral Research Associate. 
+        His research focuses on the implementation of various cover crop types to enhance carbon sequestration under different crop rotations and
+        climate conditions. He has expertise in large-scale geospatial modeling, GIS,
+        Python, and remote sensing. Dr. Raj received his PhD in 2024 from the
+        Department of Civil Engineering at the Indian Institute of Technology Delhi,
+        New Delhi, India. During his doctoral research, he developed a new
+        national-scale soil erosion severity map for India using geospatial modeling
+        and machine learning techniques.`,
+        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/raviraj.jpg'
+      },
+    ],
+    former: [
+      {
+        name: 'Koutilya PNVR',
+        data: 'Koutilya PNVR is a PhD student in the department of Electrical and Computer Engineering, ' +
+          'University of Maryland, College Park, MD. He has been working as a Graduate Research Assistant in the ' +
+          'SMaRS lab, and he is involved in the projects focusing on crop phenology, semantic segmentation, and ' +
+          'land cover and burnt area mapping.',
+        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/KoutilyaPNVR.jpg'
+      },
+      {
+        name: 'Eric Allen',
+        data: 'Eric Allen received his Master’s in plant biology with a focus in remote sensing from the ' +
+          'University of Oklahoma. His graduate research mainly involved applying remote sensing for ' +
+          'spatio-temporal analysis of vegetation productivity in response to extreme drought. Now at the ' +
+          'USDA Arid-Land Research Institute, he has been working on development of a multi-scale experiment to ' +
+          'study the impacts of heat stress on cotton. He is also involved in the production of a high spatial ' +
+          'resolution nitrogen fertilizer database for the United States.',
+        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/EricAllen.jpg'
+      },
+      {
+        name: 'Rohan Maan',
+        data: 'Rohan Maan is pursuing his masters in Robotics at the University of Maryland. His primary research' +
+          ' is into Computer Vision and Machine Learning and is currently working on Tillage Mapping using satellite' +
+          ' spatiotemporal data.',
+        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/Rohan_new.JPG'
+      },
+      {
         name: 'Abhinav Kumar',
         data: 'Abhinav Kumar is pursuing MS in Computer Science at Arizona State University. ' +
           'He works on establishing high-computing Linux environment for SMaRS lab. ' +
           'His primary research is into compiler and high-end computing for machine learning and deep learning applications',
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/abhinav.jpeg'
-      }
-    ],
-    former: [
+      },
       {
         name: 'Keerthan Mahesh',
         data: 'Keerthan Mahesh is pursuing MS in Software Engineering at the University of Maryland, College ' +
