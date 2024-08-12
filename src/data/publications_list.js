@@ -1,4 +1,6 @@
 const peer_reviewed = [
+  `R. Nandan, V. Bandaru, P. Meduri, C. Jones, and R. Lollato. 2024. 
+    Evaluating the utility of weather generators in crop simulation models for in-season yield forecasting. Agricultural Systems, 220, 104082.`,
   'PVNR. Koutilya, V. Bandaru. 2023. Mapping sugarcane residue burnt areas in smallholder farming systems using machine learning approaches.'+
   ' International Journal of Applied Earth Observation and Geoinformation, 6, Article 100347.',
   'R. Nandan, V. Bandaru, J. He, C. Daughtry, P. Gowda, A. Suyker. 2022. Evaluating Optical Remote Sensing Methods for ' +

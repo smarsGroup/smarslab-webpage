@@ -46,7 +46,7 @@ const people_list = [
           'expertise in crop simulation modeling and remote sensing. Dr. Nandan received his PhD in 2022 from ' +
           'the Centre of Studies In Resources Engineering (CSRE), Indian Institute of Technology Bombay, Mumbai, ' +
           'India.',
-        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/RohitNandan.jpg'
+        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/Rohit.png'
       },
       
       {
@@ -72,6 +72,13 @@ const people_list = [
           'Park. He works on developing and deploying web applications for SMaRS lab. He is ' +
           'currently working on the Nitrogen Recommendation tool.',
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/sachin.jpg'
+      },
+      {
+        name: 'Chaitanya Kulkarni',
+        data: `Chaitanya is pursuing a Master's in Robotics at the University of Maryland, College Park. 
+        His research interests lie in computer vision and machine learning. 
+        He is currently working on using satellite imagery and deep learning techniques for crop type mapping.`,
+        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/Chaitanya_Kulkarni.jpg'
       },
       // {
       //   name: 'Sameep Pote',
@@ -271,7 +278,20 @@ const people_list = [
           'Energy Commission funded project and NASA LCLUC project. She assisted in cluster analysis and large ' +
           'scale spatial data analysis and modeling. She is currently working as a GIS analyst at Mead & Hunt.',
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/LanSong.jfif'
-      }
+      },
+      {
+        name: 'Meena Kumari Kolli',
+        data: 'Dr. Meena Kolli is a Postdoctoral Research Associate. Her research focuses on the integration of ' +
+          'field/remote sensing data and process-based models. Her primary research interest is in the area of ' +
+          'mapping and modeling using big-data analysis using cloud platforms. Her research area revolves around ' +
+          'extracting, processing, assimilating, and analyzing a satellite image to create insightful maps using ' +
+          'the techniques of remote sensing and Digital Image Processing. She is ' +
+          'well-versed in deriving viable solutions to complex problems through big data analysis. She received ' +
+          'her Ph.D. in 2020 from the Philipps-Universität Marburg, Germany, and thereafter worked as a Research ' +
+          'Fellow at the National Academy of Agricultural Sciences, New Delhi. She worked as a Postdoctoral ' +
+          'Research Fellow at IIT Bombay from March 2022 to September 2022.',
+        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/MeenaKumari.jpg'
+    },
     ]
   }
 ]
