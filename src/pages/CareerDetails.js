@@ -15,9 +15,7 @@ import { useParams } from "react-router-dom";
 import jobsData from '../data/jobs_list';
 import jobDetails from '../data/job_details';
 import Markdown from "react-markdown";
-import job_Details from '../data/job_details';
 import axios from 'axios';
-import AWS from 'aws-sdk';
 
 
 export default function CareerDetails() {
@@ -474,7 +472,7 @@ export default function CareerDetails() {
 
                     <Box mb={2}>
                         <Typography variant="body1" gutterBottom>
-                            Upload Resume( Signed & Dated)
+                            Upload Resume (Signed & Dated)
                         </Typography>
                         <input
                             type="file"
