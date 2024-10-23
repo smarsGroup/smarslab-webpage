@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Main from './layouts/Main'; // fallback for lazy pages
 import './static/css/main.scss'; // All of our styles
 
+
 const { PUBLIC_URL } = process.env;
 
 // Every route - we lazy load so that each page can be chunked
@@ -16,6 +17,8 @@ const People = lazy(() => import('./pages/People'));
 const Publications = lazy(() => import('./pages/Publications'));
 const Datasets = lazy(() => import('./pages/Datasets'));
 const News = lazy(() => import('./pages/News'));
+const Career = lazy(() => import('./pages/Career'));
+const CareerDetails = lazy(() => import('./pages/CareerDetails'));
 const CMS = lazy(() => import('./subProjects/cms/src/App'));
 
 const App = () => (
@@ -30,6 +33,8 @@ const App = () => (
         <Route path="/datasets" element={<Datasets />} />
         <Route path="/news" element={<News />} />
         <Route path="/cms/*" element={<CMS />} />
+        <Route path="/careers" element={<Career />} />
+        <Route path="/career-details/:id" element={<CareerDetails />} />
         <Route element={<NotFound />} status={404} />
       </Routes>
     </Suspense>
