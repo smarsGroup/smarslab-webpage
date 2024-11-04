@@ -53,18 +53,7 @@ and analytical skills in model evaluation are strongly preferred.
 
 Salary and benefits are highly competitive and depends on skills and experience.
 `,
-2:`# About Us
-
-The Spatial Modeling and Remote Sensing (SMaRS) lab
-investigates methods to improve crop modeling capabilities, focusing on
-reliably simulating crop growth, carbon, nitrogen, and water interactions at
-multiple spatial scales. The lab also develops operational decision support
-tools and data products using process-based crop modeling and satellite remote
-sensing. The SMaRS lab consists of a team with expertise in spatial data
-analysis, satellite remote sensing, crop modeling, high-end computation, crop
-physiology, and agronomy.
-
----
+2:`
 
 ## Job Summary
 

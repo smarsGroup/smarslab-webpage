@@ -14,7 +14,7 @@ export default function News() {
             <ul>
               {news && news.map((item, key) => {
                   return (
-                    <li key={key}>{item}</li>
+                    <li key={key} dangerouslySetInnerHTML={{ __html: item }}></li>
                   )
                 }
               )}
