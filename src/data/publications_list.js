@@ -1,4 +1,6 @@
 const peer_reviewed = [
+  `Xiangjie Chen, Robert G Chambers, Varaprasad Bandaru, Curtis D Jones, Tyson E Ochsner, Rohit Nandan, Bharath C Irigireddy, Romulo P Lollato, Travis W Witt, Charles W Rice. 2024. 
+  Mid-season nitrogen management for winter wheat under price and weather uncertainty. Field Crop Research journal, Volume 316, in 2024.`,
   `R. Nandan, V. Bandaru, P. Meduri, C. Jones, and R. Lollato. 2024. 
     Evaluating the utility of weather generators in crop simulation models for in-season yield forecasting. Agricultural Systems, 220, 104082.`,
   'PVNR. Koutilya, V. Bandaru. 2023. Mapping sugarcane residue burnt areas in smallholder farming systems using machine learning approaches.'+

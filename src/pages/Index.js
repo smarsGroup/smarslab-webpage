@@ -138,7 +138,14 @@ export default function Index() {
                                         </li>
                                         <li>
                                             <p>
-                                                Post-doctoral researcher position is available at SMaRS Lab. Apply here at
+                                                Post-doctoral researcher position is available at SMaRS Lab. Apply <Link
+                                                    style={{ textDecoration: 'none' }}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    to={"/careers"}
+                                                    onClick={() => {}}>
+                                                        here
+                                                </Link> 
                                             </p>
                                         </li>
                                     </ul>

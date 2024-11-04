@@ -15,32 +15,32 @@ const datasets_tools = {
     tools: [
         {
             name: 'Nitrogen recommendation tool',
-            path: '//google.com'
-        },
-        {
-            name: 'National Carbon Flux products',
-            path: '//google.com'
-        },
-        {
-            name: 'Tillage Intensity Maps',
-            path: '//google.com'
+            path: 'http://nitrogen-recommendation-tool.s3-website-us-east-1.amazonaws.com'
         },
         {
             name:  'Crop rotation maps',
-            path: '//google.com'
+            path: 'http://crop-rotation-tool.s3-website-us-east-1.amazonaws.com'
         },
         {
-            name: 'Crop yield outlooks',
-            path: '//google.com'
+            name: 'GeoEPIC (win_v1.0)',
+            path: 'https://smarsgroup.github.io/geo_epic_win'
         },
-        {
-            name: 'Crop specific leaf area index',
-            path: '//google.com'
-        },
-        {
-            name: 'Geo-EPIC R package',
-            path: '//google.com'
-        },  
+        // {
+        //     name: 'Tillage Intensity Maps',
+        //     path: '//google.com'
+        // },
+        // {
+        //     name: 'Crop yield outlooks',
+        //     path: '//google.com'
+        // },
+        // {
+        //     name: 'Crop specific leaf area index',
+        //     path: '//google.com'
+        // },
+        // {
+        //     name: 'Geo-EPIC R package',
+        //     path: '//google.com'
+        // },  
     ]
 };
 

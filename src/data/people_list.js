@@ -8,8 +8,8 @@ const people_list = [
           'Park, MD. His research is broadly focused on large scale modeling of agricultural systems. He ' +
           'develops robust geospatial tools by integrating biophysical and biogeochemical models, geographic ' +
           'information systems and satellite remote sensing, and applying them to monitor and sustainably manage ' +
-          'agricultural systems at multiple scales. He is a member of NASA CMS Science Team (2016-present) and ' +
-          'NASA LCLUC Science Team (2018-present). Dr. Bandaru received a PhD in Plant and Soil Sciences from ' +
+          'agricultural systems at multiple scales. He is a member of NASA CMS Science Team (2016-present), ' +
+          'NASA LCLUC Science Team (2018-2022) and NASA SERVIR Applied Science (2022-present). Dr. Bandaru received a PhD in Plant and Soil Sciences from ' +
           'the University of Delaware. Later, he worked as a postdoctoral research associate at Oak Ridge ' +
           'National Laboratory.',
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/ProfVaraprasadBandaru.png',
@@ -61,16 +61,15 @@ const people_list = [
       
       {
         name: 'Bharath Chandra Irigireddy',
-        data: 'Bharath is pursuing masters in Robotics at the University of Maryland. His research interests mainly' +
-          ' lie in the intersection of Computer Vision and Machine Learning. He is currently working on data processing' +
-          ' for Nitrogen Recommendation Tool and Field Boundary Delineation using satellite images.',
+        data: `Bharath graduated with a Master’s in Robotics from the University of Maryland. His research interests mainly lie in the intersection of Computer Vision and Machine Learning. 
+          He is currently working on data fusion of different satellite sources, such as Landsat and MODIS. 
+          He also focuses on enhancing crop modelling at large geo-spatial scales.`,
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/Bharath1.jpeg'
       },
       {
         name: 'Sachin Velmurugan',
-        data: 'Sachin Velmurugan is pursuing MS in Software Engineering at the University of Maryland, College ' +
-          'Park. He works on developing and deploying web applications for SMaRS lab. He is ' +
-          'currently working on the Nitrogen Recommendation tool.',
+        data: `Sachin Velmurugan is a geospatial data analyst with a focus on software engineering, dedicated to developing critical software for the SMaRS lab. 
+          In addition to his primary work, he collaborates on other projects by downloading, scaling, and processing input data in parallel to support nationwide simulations efficiently.`,
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/sachin.jpg'
       },
       {
@@ -88,10 +87,10 @@ const people_list = [
       // },
       {
         name: 'Meenakshi Rawat',
-        data: 'Meenakshi Rawat is a graduate student from Kansas State University. ' +
-          'She has gained experience working on process-based and statistical-based models for crop yield prediction. ' +
-          'She has recently joined as a Geospatial Data Scientist at the USDA. ' +
-          'Currently, she is working on the NASA SERVIR project and focusing on data assimilation and simulating yield using the Environmental Policy Integrated Climate (EPIC) model.',
+        data: `Meenakshi Rawat is a Geospatial Data Scientist at the USDA-ALARC. 
+          She graduated from Kansas State University with a degree in Agricultural Engineering, specializing in process-based and statistical models for crop yield predictions. 
+          Currently, she is involved in two significant projects: the NASA-SERVIR project, which focuses on data assimilation and forecasting rice yield in Nepal using the Environmental Policy Integrated Climate (EPIC) model by integrating weather, soil, management, and remote sensing data; 
+          and the NASA Carbon Monitoring System (CMS) project, which investigates carbon dynamics and their controlling factors in croplands.`,
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/meenakshi-rawat.jpg'
       },
       {

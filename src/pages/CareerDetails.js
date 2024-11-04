@@ -178,6 +178,7 @@ export default function CareerDetails() {
                 const rawData = JSON.stringify({
                     "fullName": formData.fullName,
                     "email": formData.email,
+                    'jobName' : jobInfo.title,
                     "location": formData.location,
                     "interest": formData.interest,
                     "personalStatement": formData.personalStatement,
@@ -196,7 +197,6 @@ export default function CareerDetails() {
                 fetch("https://q5v5yvo3gwkrlw44kxfjowzbhq0gnqqf.lambda-url.us-east-1.on.aws", requestOptions)
                     .then((response) => response.text())
                     .then((result) => {
-                        console.log(result);
                         triggerToast("success", "Thank you. We received your application.")
                         setFormData({
                             fullName: "",
