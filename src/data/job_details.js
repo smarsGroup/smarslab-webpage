@@ -87,6 +87,9 @@ to maintain a strong record of scholarly publication and presentations at scient
 ## Position Details
 
 This position offers a highly competitive salary plus benefits and comprehensive mentoring for scientific and professional development. The initial appointment is for one year, with opportunity for extension for the second-year contingent on performance. The position is expected to start early January 2025.
+
+
+For additional details, contact: **rkumar@ucar.edu**
 `
 };
 export default job_Details;
