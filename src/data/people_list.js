@@ -23,11 +23,11 @@ const people_list = [
           },
           {
             logo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/nacp-logo.png',
-            url: 'https://cce-signin.gsfc.nasa.gov/cgi-bin/participants/getrec.pl?name_id=10964&wid=12'
+            url: 'https://nacarbon.org/nacp/detail.html?itemID=10964&itemType=member&itemProgID=3&itemName=Bandaru,%20Varaprasad%20%28Prasad%29'
           },
           {
             logo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/harvestlogo.png',
-            url: 'https://nasaharvest.org/partner/varaprasad-bandaru'
+            url: 'https://nasaharvest.umd.edu/partner/varaprasad-bandaru'
           },
           {
             logo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/LinkedIn-logo.png',
