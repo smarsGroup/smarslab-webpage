@@ -145,10 +145,10 @@ export default function CareerDetails() {
         }
 
         // Validate peer reviewed publications: at least 2 non-empty entries
-        if (peerReviewedPublications.length < 2 || peerReviewedPublications.some(isEmpty)) {
-            triggerToast("error", "Please provide at least 2 peer-reviewed publications.");
-            return false;
-        }
+        // if (peerReviewedPublications.length < 2 || peerReviewedPublications.some(isEmpty)) {
+        //     triggerToast("error", "Please provide at least 2 peer-reviewed publications.");
+        //     return false;
+        // }
 
         if (!resumeFile) {
             triggerToast("error", "Please upload your resume.");
@@ -395,7 +395,7 @@ export default function CareerDetails() {
 
                     <Box mb={2}>
                         <Typography variant="body1" gutterBottom>
-                            Peer Reviewed Publications (2 to 5)
+                            Peer Reviewed Publications (0 to 5)
                         </Typography>
                         {formData.peerReviewedPublications.map((publication, index) => (
                             <Box display="flex" alignItems="center" mb={1} key={index}>
