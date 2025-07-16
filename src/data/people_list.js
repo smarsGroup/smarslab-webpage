@@ -69,7 +69,7 @@ const people_list = [
       {
         name: 'Ananda Kshitij',
         data: `Ananda is currently pursuing his Master\'s in Software Engineering at the University of Maryland, College Park, with a concentration in Artificial Intelligence and Deep Learning. His professional interests include software development, cloud computing practices, and building AI-driven models. `,
-        photo: 'https://smarslab-files.s3.us-east-1.amazonaws.com/smarsgroup/images/people/Anand.jpeg'
+        photo: 'https://smarslab-files.s3.us-east-1.amazonaws.com/smarsgroup/images/people/Ananda_Kshitij.jpeg'
       },
       {
         name: 'Swapnita Sahu',
