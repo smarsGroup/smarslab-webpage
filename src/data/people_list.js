@@ -67,14 +67,19 @@ const people_list = [
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/Bharath1.jpeg'
       },
       {
-        name: 'Sachin Velmurugan',
-        data: `Sachin Velmurugan is a geospatial data analyst with a focus on software engineering, dedicated to developing critical software for the SMaRS lab. 
-          In addition to his primary work, he collaborates on other projects by downloading, scaling, and processing input data in parallel to support nationwide simulations efficiently.`,
-        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/sachin.jpg'
+        name: 'Ananda Kshitij',
+        data: `Ananda is currently pursuing his Master\'s in Software Engineering at the University of Maryland, College Park, with a concentration in Artificial Intelligence and Deep Learning. His professional interests include software development, cloud computing practices, and building AI-driven models. `,
+        photo: 'https://smarslab-files.s3.us-east-1.amazonaws.com/smarsgroup/images/people/Ananda_Kshitij.jpeg'
       },
       {
+        name: 'Swapnita Sahu',
+        data: `Swapnita is pursuing a Master's in Data Science at the University of Maryland. Her research interests include machine learning, large language models, and agentic AI systems. She is currently working on improving Leaf Area Index (LAI) prediction using multi-sensor satellite data and advanced neural architectures. She has experience with PyTorch Lightning, Google Earth Engine, and crop-specific modeling pipelines, and actively explores methods to enhance cross-crop generalization and prediction accuracy.`,
+        photo: 'https://smarslab-files.s3.us-east-1.amazonaws.com/smarsgroup/images/people/Swapnita.jpeg'
+      },
+      
+      {
         name: 'Chaitanya Kulkarni',
-        data: `Chaitanya is pursuing a Master's in Robotics at the University of Maryland, College Park. 
+        data: `Chaitanya graduated with a Master's in Robotics at the University of Maryland, College Park. 
         His research interests lie in computer vision and machine learning. 
         He is currently working on using satellite imagery and deep learning techniques for crop type mapping.`,
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/Chaitanya_Kulkarni.jpg'
@@ -93,18 +98,6 @@ const people_list = [
           and the NASA Carbon Monitoring System (CMS) project, which investigates carbon dynamics and their controlling factors in croplands.`,
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/meenakshi-rawat.jpg'
       },
-      {
-        name: 'Ravi Raj',
-        data: `Dr. Ravi Raj is a Post-doctoral Research Associate. 
-        His research focuses on the implementation of various cover crop types to enhance carbon sequestration under different crop rotations and
-        climate conditions. He has expertise in large-scale geospatial modeling, GIS,
-        Python, and remote sensing. Dr. Raj received his PhD in 2024 from the
-        Department of Civil Engineering at the Indian Institute of Technology Delhi,
-        New Delhi, India. During his doctoral research, he developed a new
-        national-scale soil erosion severity map for India using geospatial modeling
-        and machine learning techniques.`,
-        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/raviraj.jpg'
-      },
     ],
     former: [
       {
@@ -116,6 +109,12 @@ const people_list = [
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/KoutilyaPNVR.jpg'
       },
       {
+        name: 'Sachin Velmurugan',
+        data: `Sachin Velmurugan is a geospatial data analyst with a focus on software engineering, dedicated to developing critical software for the SMaRS lab. 
+          In addition to his primary work, he collaborates on other projects by downloading, scaling, and processing input data in parallel to support nationwide simulations efficiently.`,
+        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/sachin.jpg'
+      },
+      {
         name: 'Eric Allen',
         data: 'Eric Allen received his Master’s in plant biology with a focus in remote sensing from the ' +
           'University of Oklahoma. His graduate research mainly involved applying remote sensing for ' +
@@ -124,6 +123,18 @@ const people_list = [
           'study the impacts of heat stress on cotton. He is also involved in the production of a high spatial ' +
           'resolution nitrogen fertilizer database for the United States.',
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/EricAllen.jpg'
+      },
+      {
+        name: 'Ravi Raj',
+        data: `Dr. Ravi Raj is a Post-doctoral Research Associate. 
+        His research focuses on the implementation of various cover crop types to enhance carbon sequestration under different crop rotations and
+        climate conditions. He has expertise in large-scale geospatial modeling, GIS,
+        Python, and remote sensing. Dr. Raj received his PhD in 2024 from the
+        Department of Civil Engineering at the Indian Institute of Technology Delhi,
+        New Delhi, India. During his doctoral research, he developed a new
+        national-scale soil erosion severity map for India using geospatial modeling
+        and machine learning techniques.`,
+        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/raviraj.jpg'
       },
       {
         name: 'Rohan Maan',
