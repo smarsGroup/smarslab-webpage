@@ -32,6 +32,7 @@ If you want to contribute to the project, please open an issue or submit a pull 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
+
 ## Contributors
 [Keerthan Mahesh](https://github.com/keerthanmahesh), MS Software Engineering, University of Maryland, College Park \
 [Disha Radhakrishna](https://github.com/Disha-94), MS Software Engineering, University of Maryland, College Park \
