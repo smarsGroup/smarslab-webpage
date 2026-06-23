@@ -23,16 +23,10 @@ const Main = (props) => (
     </div>
     <Divider variant="middle" />
     <br/>
-    <Grid container spacing={2}>
-    <Grid item xs={2}></Grid>
+    <Grid container spacing={2} justifyContent="center">
       <Grid item xs={3}>
         <img className='footerLogo' src={'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/footer/USDA.png'} alt='usdaLogo' />
       </Grid>
-      <Grid item xs={2}></Grid>
-      <Grid item xs={2}>
-        <img className='footerLogo' src={'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/footer/UMDGEOG.png'} alt='umdGeogLogo' />
-      </Grid>
-      <Grid item xs={2}></Grid>
     </Grid>
   </HelmetProvider>
 );

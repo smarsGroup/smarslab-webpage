@@ -4,22 +4,18 @@ const people_list = [
       {
         name: 'Dr. Varaprasad (Prasad) Bandaru , Principal Investigator',
         data: 'Dr. Prasad Bandaru is a Research Plant Physiologist at USDA-ARS, Maricopa, AZ, and an Adjunct ' +
-          'Associate Professor in the department of geographical sciences at University of Maryland, College ' +
-          'Park, MD. His research is broadly focused on large scale modeling of agricultural systems. He ' +
-          'develops robust geospatial tools by integrating biophysical and biogeochemical models, geographic ' +
-          'information systems and satellite remote sensing, and applying them to monitor and sustainably manage ' +
-          'agricultural systems at multiple scales. He is a member of NASA CMS Science Team (2016-present), ' +
-          'NASA LCLUC Science Team (2018-2022) and NASA SERVIR Applied Science (2022-present). Dr. Bandaru received a PhD in Plant and Soil Sciences from ' +
-          'the University of Delaware. Later, he worked as a postdoctoral research associate at Oak Ridge ' +
-          'National Laboratory.',
+          'Professor in the department of environmental sciences at University of Arizona, Tucson, AZ. His research is broadly focused ' +
+          'on large scale modeling of agricultural systems. He develops robust geospatial tools by integrating biophysical and ' +
+          'biogeochemical models, geographic information systems and satellite remote sensing, and applying them to monitor and ' +
+          'sustainably manage agricultural systems at multiple scales. He is a member of NASA CMS Science Team (2016-present), ' +
+          'NASA LCLUC Science Team (2018-2022) and NASA SERVIR Applied Science (2022-2025). Dr. Bandaru received a PhD in ' +
+          'Plant and Soil Sciences from the University of Delaware. Later, he worked as a postdoctoral research associate at ' +
+          'Oak Ridge National Laboratory.',
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/ProfVaraprasadBandaru.png',
         links: [
           {
             logo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/usda-logo.png',
             url: 'https://www.ars.usda.gov/pacific-west-area/maricopa-arizona/us-arid-land-agricultural-research-center/plant-physiology-and-genetics-research/people/prasad-bandaru/'
-          }, {
-            logo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/geog-logo.png',
-            url: 'https://geog.umd.edu/facultyprofile/bandaru/varaprasad'
           },
           {
             logo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/nacp-logo.png',
@@ -41,22 +37,12 @@ const people_list = [
       },
       {
         name: 'Rohit Nandan',
-        data: 'Dr. Rohit Nandan is a Post-doctoral research associate. His research focuses on improving  crop ' +
+        data: 'Dr. Rohit Nandan is a Post-doctoral research associate. His research focuses on improving crop ' +
           'model sub-routines, remote sensing data assimilation and understanding climate change impacts. He has ' +
           'expertise in crop simulation modeling and remote sensing. Dr. Nandan received his PhD in 2022 from ' +
           'the Centre of Studies In Resources Engineering (CSRE), Indian Institute of Technology Bombay, Mumbai, ' +
           'India.',
-        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/Rohit.png'
-      },
-      
-      {
-        name: 'Pramod Pokhrel',
-        data: 'Dr. Pramod Pokhrel is a Research Agronomist at USDA-ARS, Maricopa, Arizona. His research broadly ' +
-          ' focuses on climate adaptive agriculture to promote environmental sustainability within complex agricultural ' +
-          ' systems. His current study is emphases on understanding and modeling carbon stabilizing potential of cover ' +
-          ' crops using modeling tools and remotely sensed data. Dr. Pokhrel earned his PhD from Texas A&amp;M University ' +
-          ' in 2020.',
-        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/pramod.png'
+        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/Rohit-Nandan.png'
       },
       
       {
@@ -67,16 +53,21 @@ const people_list = [
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/Bharath1.jpeg'
       },
       {
-        name: 'Ananda Kshitij',
-        data: `Ananda is currently pursuing his Master\'s in Software Engineering at the University of Maryland, College Park, with a concentration in Artificial Intelligence and Deep Learning. His professional interests include software development, cloud computing practices, and building AI-driven models. `,
-        photo: 'https://smarslab-files.s3.us-east-1.amazonaws.com/smarsgroup/images/people/Ananda_Kshitij.jpeg'
+        name: 'Swati Singh Sikarwar',
+        data: `Swati graduated with a Master of Technology in Soil and Water Conservation Engineering from Banaras Hindu University, India. Her undergraduate achievements were recognized with the Chancellor's Gold Medal, awarded for top academic performance. She works broadly in crop modelling and remote sensing, with a focus on understanding and predicting the phenology of major U.S. crops at a large, national scale. Her work brings together geospatial datasets, modelling frameworks, and agricultural knowledge to support research, extension, and decision-making across the United States.`,
+        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/swati-singh-sikarwar.png'
       },
       {
         name: 'Swapnita Sahu',
-        data: `Swapnita is pursuing a Master's in Data Science at the University of Maryland. Her research interests include machine learning, large language models, and agentic AI systems. She is currently working on improving Leaf Area Index (LAI) prediction using multi-sensor satellite data and advanced neural architectures. She has experience with PyTorch Lightning, Google Earth Engine, and crop-specific modeling pipelines, and actively explores methods to enhance cross-crop generalization and prediction accuracy.`,
-        photo: 'https://smarslab-files.s3.us-east-1.amazonaws.com/smarsgroup/images/people/Swapnita.jpeg'
+        data: `Swapnita recently completed her Master's in Data Science at the University of Maryland. Her work focuses on applying machine learning and deep learning techniques to agricultural and environmental challenges using satellite remote sensing data. She has developed models for Leaf Area Index (LAI) prediction and canopy temperature estimation across multiple crop types using Harmonized Landsat-Sentinel (HLS) imagery, weather data, and crop-specific modeling frameworks. Her interests lie in building accurate and scalable AI systems for precision agriculture.`,
+        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/Swapnita.jpeg'
       },
       
+      {
+        name: 'Pavan Thodeti',
+        data: `Pavan graduated with a Master of Science in Agricultural & Resource Economics from the University of Arizona. His research interests include precision agriculture, remote sensing, environmental monitoring, and data analytics. He works with UAV imagery, environmental sensor networks, and Eddy Covariance systems to support crop monitoring and agricultural research. He is particularly interested in applying data-driven technologies to improve crop phenotyping, water management, and sustainable agricultural production.`,
+        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/pavan-thodeti.png'
+      },
       {
         name: 'Chaitanya Kulkarni',
         data: `Chaitanya graduated with a Master's in Robotics at the University of Maryland, College Park. 
@@ -90,16 +81,30 @@ const people_list = [
       //     'at USDA. He is currently working on data assimilation related tasks of NASA CMS project.',
       //   photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/Sameep.jpg'
       // },
+    ],
+    former: [
+      {
+        name: 'Ananda Kshitij',
+        data: `Ananda pursued his Master's in Software Engineering at the University of Maryland, College Park, with a concentration in Artificial Intelligence and Deep Learning. His professional interests include software development, cloud computing practices, and building AI-driven models. `,
+        photo: 'https://smarslab-files.s3.us-east-1.amazonaws.com/smarsgroup/images/people/Ananda_Kshitij.jpeg'
+      },
       {
         name: 'Meenakshi Rawat',
         data: `Meenakshi Rawat is a Geospatial Data Scientist at the USDA-ALARC. 
           She graduated from Kansas State University with a degree in Agricultural Engineering, specializing in process-based and statistical models for crop yield predictions. 
-          Currently, she is involved in two significant projects: the NASA-SERVIR project, which focuses on data assimilation and forecasting rice yield in Nepal using the Environmental Policy Integrated Climate (EPIC) model by integrating weather, soil, management, and remote sensing data; 
+          She was involved in the NASA-SERVIR project, which focuses on data assimilation and forecasting rice yield in Nepal using the Environmental Policy Integrated Climate (EPIC) model by integrating weather, soil, management, and remote sensing data; 
           and the NASA Carbon Monitoring System (CMS) project, which investigates carbon dynamics and their controlling factors in croplands.`,
         photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/meenakshi-rawat.jpg'
       },
-    ],
-    former: [
+      {
+        name: 'Pramod Pokhrel',
+        data: 'Dr. Pramod Pokhrel is a Research Agronomist at USDA-ARS, Maricopa, Arizona. His research broadly ' +
+          ' focuses on climate adaptive agriculture to promote environmental sustainability within complex agricultural ' +
+          ' systems. His current study is emphases on understanding and modeling carbon stabilizing potential of cover ' +
+          ' crops using modeling tools and remotely sensed data. Dr. Pokhrel earned his PhD from Texas A&amp;M University ' +
+          ' in 2020.',
+        photo: 'https://smarslab-files.s3.amazonaws.com/smarsgroup/images/people/pramod.png'
+      },
       {
         name: 'Koutilya PNVR',
         data: 'Koutilya PNVR is a PhD student in the department of Electrical and Computer Engineering, ' +

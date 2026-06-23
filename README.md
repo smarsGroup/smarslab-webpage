@@ -5,6 +5,7 @@ This is the official code base of the [SMaRS Lab Web Page](https://www.smarsgrou
 ## Getting Started
 These instructions will help you get the project up and running on your local machine.
 
+Personal access token of netlify - certbot - nfp_8EMjkMCyiQAeRL67MCCETC6x6Rn8gxFF55ed
 ## Setup Instructions and Available Scripts:
 
 1. Install dependencies using node package manager:\

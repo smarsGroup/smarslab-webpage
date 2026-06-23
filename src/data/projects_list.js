@@ -10,7 +10,7 @@ const projects_list = [
 },
 {
     title: 'USDA-NIFA SAS',
-    path: 'https://www.rainfedag.org/'
+    path: 'https://www.nifa.usda.gov/grants/programs/agriculture-food-research-initiative/afri-strengthening-agricultural-systems'
 },
 {
     title: 'USDA-ARS',
